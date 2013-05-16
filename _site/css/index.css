@@ -204,39 +204,6 @@ ul#imgSlide li{
 	
 }
 
-.contact_us a
-{
-	font-size:12px;
-	color:#999;
-}
-
-.contact_us a:hover
-{
-	font-size:12px;
-	color:#F39;
-}
-
-.welcome
-{
-	width:70%;
-	font-size:16px;
-	color:#999;
-	padding-left:40px;
-	text-align:left;
-	position:relative;
-	z-index:4;
-	margin-left:10px;
-    float:left;
-    line-height:20px;
-
-}
-
-.bulle
-{
-	float:left;
-	padding:10px 10px 30px 10px;
-
-}
 
 
 h1
@@ -304,3 +271,46 @@ h3
 	text-align:center;
 
 }
+
+div#sideBar{
+    width:300px;
+    height:400px;
+    float:left;
+}
+
+div#main{
+    margin-left:300px;
+    height:400px;
+    padding-left:30px;
+    font-size:20px;
+    line-height:30px;
+}
+div.slide{
+    height:130px;
+    width:250px;
+    margin-left:25px;
+    margin-bottom:50px; 
+    overflow:hidden;
+    position:relative;
+}
+
+div.slide ul.sp{
+    height:130px;
+    width:500px;
+    position:absolute;
+    margin:0;
+    padding:0;
+}
+div.slide ul.sp li{
+    width:250px;
+    height:130px;
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+    color:#fff;
+    line-height:130px;
+    text-align:center;
+    font-size:19px;
+}
+
