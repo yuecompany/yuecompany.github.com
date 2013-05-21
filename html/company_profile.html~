@@ -1,6 +1,10 @@
 ---
-layout: default
+layout: company
 title: company_profile
 ---
 
 <script src = "../js/profile.js"></script>
+
+<div id = "com_content">
+	
+</div>
