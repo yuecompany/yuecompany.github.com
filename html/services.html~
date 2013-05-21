@@ -1,0 +1,6 @@
+---
+layout: default
+title: company_profile
+---
+
+<script src = "../js/profile.js"></script>

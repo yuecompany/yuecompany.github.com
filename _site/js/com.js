@@ -71,10 +71,6 @@ function amaze(){
 
 }
 
-window.onload = function(){
-    amaze();
-    slide();
-}
 
 /*window.addEventListener('focus', slide);    
 window.addEventListener('blur', function(){

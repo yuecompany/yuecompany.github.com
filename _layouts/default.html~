@@ -28,12 +28,12 @@
     <div id="image" >
         <div id = "imgDis">
         <ul id = "imgSlide">
-        <li style = "background:#120eee"><img src = "../assets/image/bgImage/1.jpg" width = 850 height = 300></li>
-        <li style = "background:#126e0e"><img src = "../assets/image/bgImage/2.jpg" width = 850 height = 300></li>
-        <li style = "background:#f20eee"><img src = "../assets/image/bgImage/3.jpg" width = 850 height = 300></li>
-        <li style = "background:#1d0e1e"><img src = "../assets/image/bgImage/4.jpg" width = 850 height = 300></li>
-        <li style = "background:#1f0efe"><img src = "../assets/image/bgImage/5.jpg" width = 850 height = 300></li>
-        <li style = "background:#1dfeee"><img src = "../assets/image/bgImage/6.jpg" width = 850 height = 300></li>
+        <li style = "background:#120eee"><img src = "../assets/image/bgImage/1.jpg"></li>
+        <li style = "background:#126e0e"><img src = "../assets/image/bgImage/2.jpg"></li>
+        <li style = "background:#f20eee"><img src = "../assets/image/bgImage/3.jpg"></li>
+        <li style = "background:#1d0e1e"><img src = "../assets/image/bgImage/4.jpg"></li>
+        <li style = "background:#1f0efe"><img src = "../assets/image/bgImage/5.jpg"></li>
+        <li style = "background:#1dfeee"><img src = "../assets/image/bgImage/6.jpg"></li>
         </ul>
         </div>
     </div>
@@ -42,7 +42,7 @@
 
 <tr width="980" id = "menu">
 <td>
-	<a href="../html/services.html"><img src="../assets/image/nav/services_off.png" name="services" onmouseover="services.src='../assets/image/nav/services_on.png'"  onmouseout="services.src='../assets/image/nav/services_off.png'" onmousedown="services.src='../assets/image/nav/services_on.png'" /></a>
+	<a href="../html/services.html"><img src="../assets/image/nav/services_off.png" name="services" onmouseover="services.src='../assets/image/nav/services_on.png'" width = "850" height = "300" onmouseout="services.src='../assets/image/nav/services_off.png'" onmousedown="services.src='../assets/image/nav/services_on.png'" /></a>
 </td>
 
 <td>    

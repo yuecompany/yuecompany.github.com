@@ -1,0 +1,316 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body
+{
+	background-color:#00142a;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+}
+
+table
+{
+
+	margin-left:auto;
+	margin-right:auto;
+	width:1024px;
+	border:none;
+	border-collapse:collapse;
+	border-spacing:0em;
+
+}
+
+tr
+{
+
+	border:none;
+	border:0px;
+	border-collapse:collapse;
+	border-spacing:0em;
+	margin-top:-3px;
+
+}
+td
+{
+
+	border:none;
+	border:0px;
+	border-collapse:collapse;
+	border-spacing:0em;
+
+}
+
+img
+{
+
+	border:none;
+}
+
+#en_tete
+{
+	width:980px;
+	height:80px;
+	background-color:#FFF;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 10px 10px 0px 0px;
+	padding:20px 20px 20px 20px;
+
+}
+
+.drapeau
+{
+
+	float:right; 
+	font-family:"Gill Sans Light", Arial, Verdana;
+	font-size:10px;
+	color:#999;	
+	padding:12px 10px 0px 0px;
+	text-align:center;
+}
+
+.drapeau img
+{
+	width:25px; 
+	height:25px; 
+	padding:5px;
+
+}
+
+.drapeau a
+{
+	font-family:"Gill Sans Light", Arial, Verdana;
+	font-size:10px;
+	color:#999;	
+	text-decoration:none;
+}
+
+.drapeau a:hover
+{
+	font-family:"Gill Sans Light", Arial, Verdana;
+	font-size:10px;
+	color:#39C;
+	text-decoration:none;
+}
+
+#image
+{
+	background-color:#CCC;
+	width:1000px;
+	height:300px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0px 20px 0px 0px;
+	margin-top:-2px;
+    position: relative;
+}
+div#imgDis{ 
+    background-color:#df1;
+    width:850px;
+    height:300px;
+    position:relative;
+    overflow:hidden;
+ }
+ul#imgSlide{ 
+    width:5100px;
+    height:300px;
+    background-color:#d15;
+    margin:0;
+    padding:0;
+    position: absolute;
+
+}
+ul#imgSlide li{ 
+    width:850px;
+    height:300px;
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+#menu
+{
+	background-color:#00142a;
+	width:1010px;
+	height:28px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-top:-5px;
+
+}
+
+#menu td a img
+{
+	width:218px;
+	height:30px;
+	border:none;
+}
+
+
+#corps
+{
+	background-color:#FFF;
+	background-image:url(../png/monde_tbi_index.png);
+	background-repeat:no-repeat;
+	width:980px;
+	height:350px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:"Gill Sans Light", Arial, Verdana;
+	font-size:10px;
+	color:#666;
+	padding:40px 20px 30px 20px;
+	padding-bottom:70px;
+	position:relative;
+	z-index:0;
+	margin-top:-2px;
+
+
+}
+
+.banniere
+{
+	width:15%;
+	float:left;
+	margin:0px 40px 0px 0px;
+	position:relative;
+	z-index:1;
+	
+}
+
+.contact_us
+{
+	width:100%;
+	font-size:12px;
+	color:#006391;
+	border-radius:10px;
+	border-color:#CCC;
+	border-style:solid;
+	border-width:1px;
+	padding:10px;
+	padding-bottom:20px;
+	box-shadow: 5px 5px 6px #CCC;
+	text-align:justify;
+	float:left;
+	margin:0px 0px 20px 0px;
+	position:relative;
+	z-index:2;
+	
+	
+}
+
+
+
+h1
+{
+	font-size:12px;
+	color:#39C;
+	font-variant:small-caps;
+}
+
+h2
+{
+	font-size:12px;
+	color:#00142a;
+}
+
+
+h3
+{
+	font-size:22px;
+	color:#00142a;
+}
+
+#pied_de_page
+{
+	background-color:#CCC;
+	width:980px;
+	height:50px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 0px 0px 10px 10px ;
+	text-align:justify;
+	font-size:10px;
+	color:#666;
+	font-family:"Gill Sans Light", Arial, Verdana;
+	padding:5px 20px 20px 20px;
+	margin-top:-2px;
+
+}
+
+.float_x3
+{
+	
+	float: left;
+  	width: 30%;
+	overflow:hidden;
+	padding:0px 10px 0px 0px;
+}
+
+
+#logos
+{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:0% 17% 0% 17%;
+
+}
+
+
+#logos img
+{
+	padding:10px 20px 0px 20px;
+	float:left;
+	vertical-align:middle;
+	text-align:center;
+
+}
+
+div#sideBar{
+    width:300px;
+    height:400px;
+    float:left;
+}
+
+div#main{
+    margin-left:300px;
+    height:400px;
+    padding-left:30px;
+    font-size:20px;
+    line-height:30px;
+}
+div.slide{
+    height:130px;
+    width:250px;
+    margin-left:25px;
+    margin-bottom:50px; 
+    overflow:hidden;
+    position:relative;
+}
+
+div.slide ul.sp{
+    height:130px;
+    width:500px;
+    position:absolute;
+    margin:0;
+    padding:0;
+}
+div.slide ul.sp li{
+    width:250px;
+    height:130px;
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+    color:#fff;
+    line-height:130px;
+    text-align:center;
+    font-size:19px;
+}
+
