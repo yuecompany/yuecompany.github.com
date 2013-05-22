@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" media="screen" type="text/css" title="design" href="../css/index.css">
+<link rel="stylesheet" media="screen" type="text/css" title="design" href="../css/network.css">
+<link rel="icon" type="image/png" href="png/icone.png"/>
+
+<title>{{  page.title}} </title>
+<script src="../js/com.js" type="text/javascript"></script>
+<script src = "../js/jquery-1.9.0.min.js" type = "text/javascript"></script>
+
+</head>
+
+<body>
+<table style="border:none;">
+
+<tr>
+<td colspan="6">
+    <div id="en_tete">
+    <a href="../index.html"><img src="../assets/image/logo/LOGO.jpg" align="left" ></a>
+    </div>
+</td>
+</tr>
+
+<tr>
+<td colspan="6">
+    <div id="image" >
+        <div id = "imgDis">
+        <ul id = "imgSlide">
+        <li style = "background:#120eee"><img src = "../assets/image/bgImage/1.jpg" width = 850 height = 300></li>
+        <li style = "background:#126e0e"><img src = "../assets/image/bgImage/2.jpg" width = 850 height = 300></li>
+        <li style = "background:#f20eee"><img src = "../assets/image/bgImage/3.jpg" width = 850 height = 300></li>
+        <li style = "background:#1d0e1e"><img src = "../assets/image/bgImage/4.jpg" width = 850 height = 300></li>
+        <li style = "background:#1f0efe"><img src = "../assets/image/bgImage/5.jpg" width = 850 height = 300></li>
+        <li style = "background:#1dfeee"><img src = "../assets/image/bgImage/6.jpg" width = 850 height = 300></li>
+        </ul>
+        </div>
+    </div>
+</td>
+</tr>
+
+<tr width="980" id = "menu">
+<td>
+	<a href="../html/services.html"><img src="../assets/image/nav/services_off.png" name="services" onmouseover="services.src='../assets/image/nav/services_on.png'"  onmouseout="services.src='../assets/image/nav/services_off.png'" onmousedown="services.src='../assets/image/nav/services_on.png'" /></a>
+</td>
+
+<td>    
+   <a href="../html/network.html"><img src="../assets/image/nav/network_off.png" name="network" onmouseover="network.src='../assets/image/nav/network_on.png'" 
+	onmouseout="network.src='../assets/image/nav/network_off.png'" onmousedown="network.src='../assets/image/nav/network_on.png'" /></a>
+ </td>
+ 
+<td>    
+    <a href="../html/company_profile.html"><img src="../assets/image/nav/company_off.png" name="company" onmouseover="company.src='../assets/image/nav/company_on.png'" 
+	onmouseout="company.src='../assets/image/nav/company_off.png'" onmousedown="company.src='../assets/image/nav/company_on.png'" /></a>
+</td>
+<td>
+	<a href="../html/contact.html"><img src="../assets/image/nav/contact_off.png" name="contact" onmouseover="contact.src='../assets/image/nav/contact_on.png'" 
+	onmouseout="contact.src='../assets/image/nav/contact_off.png'" onmousedown="contact.src='../assets/image/nav/contact_on.png'" /></a>
+</td>  
+ </tr>  
+
+
+
+<tr>
+<td colspan="6">
+    <div id="net_corps">
+     {{content}}   
+    </div>
+</td>
+</tr>
+
+<tr>
+<td colspan="6">
+    <div id="pied_de_page">
+    </div>
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+

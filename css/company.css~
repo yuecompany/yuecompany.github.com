@@ -1,7 +1,7 @@
 #com_corps{
 	background-color:#FFF;
 	width:1000px;
-	height:540px;
+	height:340px;
 	margin-left:auto;
 	margin-right:auto;
 	font-size:10px;
@@ -11,10 +11,11 @@
 	position:relative;
 	z-index:0;
 	margin-top:-2px;
+	background-color:#eee;
 }
 
 #com_content{
-	
+	background-color:#eee;
 	margin-left:auto;
 	margin-right:auto;
 	width:800px;
@@ -23,4 +24,16 @@
 	font-size:15px;
 	color:#202020;
 	
+}
+#com_content img{
+	border-style:solid;
+	border-color:#fff;
+	border-width:13px;
+}
+#com_content img.left{
+	float:left;
+}
+
+#com_content img.right{
+	float:right;
 }

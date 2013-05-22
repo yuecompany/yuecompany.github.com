@@ -1,0 +1,16 @@
+function dis(){
+	var sp = document.getElementById("net_pic");
+	var l = sp.getElementsByTagName("li");
+	for(var i = 0;i < l.length;i ++){
+		var p = l[i].getElementsByTagName("span")[0];
+		l[i].onmouseover = function(){p.style["display"] = "block";}
+		l[i].onmouseout = function(){p.style["display"] = "none";}
+	}
+}
+
+
+
+window.onload = function(){
+    slide();
+	dis();
+}
