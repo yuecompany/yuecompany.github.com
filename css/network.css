@@ -41,10 +41,9 @@
 	filter:alpha(opacit=80);
 	width:70px;
 	height:32px;
-	display:none;
+	/*display:none;*/
 	position:relative;
-	top:-60px;
-	left:-40px;
+	
 	text-align:center;
 	color:#fff;
 	line-height:32px;

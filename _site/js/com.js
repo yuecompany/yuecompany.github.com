@@ -23,7 +23,7 @@ function slide(){
                 if(oImg.offsetLeft == 0){
                     clearInterval(timer2);
                 }else {
-                    oImg.style["left"] = oImg.offsetLeft + 250 + "px";
+                    oImg.style["left"] = oImg.offsetLeft + 170 + "px";
                 }
             },30);
         }else {

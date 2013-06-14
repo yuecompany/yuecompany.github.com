@@ -1,4 +1,4 @@
-function dis(){
+/*function dis(){
 	var sp = document.getElementById("net_pic");
 	var l = sp.getElementsByTagName("li");
 	for(var i = 0;i < l.length;i ++){
@@ -14,7 +14,7 @@ function dis(){
 			}
 		}(p);
 	}
-}
+}*/
 
 
 
