@@ -18,14 +18,8 @@ function slide(){
 
          if(oImg.offsetLeft == -5*imgLength){
             clearInterval(timer3);
-            if(oImg.offsetLeft > 0) oImg.style["left"] = "0px";
-            timer2 = setInterval(function(){
-                if(oImg.offsetLeft == 0){
-                    clearInterval(timer2);
-                }else {
-                    oImg.style["left"] = oImg.offsetLeft + 250 + "px";
-                }
-            },30);
+            oImg.style["left"] = "0px";
+           
         }else {
             clearInterval(timer2);
             tmp = 0;
@@ -71,10 +65,6 @@ function amaze(){
 
 }
 
-window.onload = function(){
-    amaze();
-    slide();
-}
 
 /*window.addEventListener('focus', slide);    
 window.addEventListener('blur', function(){
